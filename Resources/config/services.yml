@@ -1,0 +1,8 @@
+services:
+
+    mof.timestampable.timestampable_subscriber: 
+        class: Mof\Timestampable\Event\TimestampableSubscriber
+        arguments: 
+            - '@annotation_reader'
+        tags:  
+            - { name: doctrine.event_subscriber }
