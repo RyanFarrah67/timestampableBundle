@@ -1,13 +1,13 @@
 <?php
 
-namespace Mof\Timestampable\DependencyInjection;
+namespace Mof\Bundle\Timestampable\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class MofTimestampableExtension extends Extension
+class TimestampableExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
