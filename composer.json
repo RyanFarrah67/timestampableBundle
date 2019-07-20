@@ -1,6 +1,6 @@
 {
     "name": "mof/timestampable-bundle",
-    "description": "Symfony bundle for automatically handle creation and update date on entity properties",
+    "description": "Symfony bundle for automatically handle creation and update date of Doctrine entity properties",
     "type": "library",
     "license": "MIT",
     "require": {
